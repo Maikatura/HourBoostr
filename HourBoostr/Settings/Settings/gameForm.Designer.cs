@@ -33,6 +33,7 @@
             this.lvlExampleInput = new System.Windows.Forms.Label();
             this.txtProfile = new System.Windows.Forms.TextBox();
             this.gameGroup = new System.Windows.Forms.GroupBox();
+            this.gameCount = new System.Windows.Forms.Label();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.gameList = new System.Windows.Forms.ListBox();
             this.selectedList = new System.Windows.Forms.ListBox();
@@ -60,7 +61,7 @@
             this.lvlExampleInput.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lvlExampleInput.Location = new System.Drawing.Point(248, 0);
             this.lvlExampleInput.Name = "lvlExampleInput";
-            this.lvlExampleInput.Size = new System.Drawing.Size(82, 15);
+            this.lvlExampleInput.Size = new System.Drawing.Size(83, 15);
             this.lvlExampleInput.TabIndex = 0;
             this.lvlExampleInput.Text = "Example Input";
             this.lvlExampleInput.Click += new System.EventHandler(this.lvlExampleInput_Click);
@@ -78,6 +79,7 @@
             // 
             // gameGroup
             // 
+            this.gameGroup.Controls.Add(this.gameCount);
             this.gameGroup.Controls.Add(this.txtSearch);
             this.gameGroup.Controls.Add(this.gameList);
             this.gameGroup.Controls.Add(this.selectedList);
@@ -88,6 +90,16 @@
             this.gameGroup.TabStop = false;
             this.gameGroup.Text = "Games";
             this.gameGroup.Visible = false;
+            // 
+            // gameCount
+            // 
+            this.gameCount.AutoSize = true;
+            this.gameCount.Dock = System.Windows.Forms.DockStyle.Right;
+            this.gameCount.Location = new System.Drawing.Point(252, 19);
+            this.gameCount.Name = "gameCount";
+            this.gameCount.Size = new System.Drawing.Size(86, 15);
+            this.gameCount.TabIndex = 78;
+            this.gameCount.Text = "Game Count: 0";
             // 
             // txtSearch
             // 
@@ -176,5 +188,6 @@
         private System.Windows.Forms.Label lvlExampleInput;
         private System.ComponentModel.BackgroundWorker backgroundWorker;
         private System.Windows.Forms.TextBox txtSearch;
+        private System.Windows.Forms.Label gameCount;
     }
 }

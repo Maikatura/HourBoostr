@@ -26,6 +26,8 @@ namespace Settings
         private List<Config.Game> mGames = new List<Config.Game>();
 
 
+
+
         /// <summary>
         /// SendMessage import
         /// Specifically used in this case for setting placeholder text for text controls
@@ -254,7 +256,7 @@ namespace Settings
             selectedList.Items.Clear();
 
             mGames = mGames.OrderBy(o => o.name).ToList();
-            
+
             string searchQuery = txtSearch.Text;
             foreach (var game in mGames)
             {
@@ -268,6 +270,8 @@ namespace Settings
             }
 
             mGamesSelected.ForEach(o => selectedList.Items.Add(o.name));
+
+            GameCountText();
         }
 
 
@@ -339,6 +343,16 @@ namespace Settings
         {
             e.Cancel = true;
             Hide();
+        }
+
+        private void GameCountText()
+        {
+            this.gameCount.Text = "Games Count: " + mGamesSelected.Count;
+        }
+
+        private void gameCount_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
