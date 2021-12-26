@@ -32,6 +32,8 @@ This program acts like a stand-alone Steam client and will require you to enter 
 Video tutorial of HourBoostr: https://www.youtube.com/watch?v=eqhPBEVMPDM
 
 ## SingleBoostr
+ 
+### I do not work on this program just for the one that idles many programs at once (the one above)
 
 This program is perfect for you if you only have one account that you want to boost. This program requires you to have Steam installed, however you can be logged into your account and play games and chat with your friends while you are boosting other games with SingleBoostr at the same time. SingleBoostr also offers a great way to farm Trading Cards.
 
