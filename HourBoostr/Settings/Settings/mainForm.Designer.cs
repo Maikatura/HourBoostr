@@ -45,6 +45,7 @@
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.clearGames = new System.Windows.Forms.Label();
             this.lblFindGames = new System.Windows.Forms.Label();
             this.txtGameItem = new System.Windows.Forms.TextBox();
             this.gameList = new System.Windows.Forms.ListBox();
@@ -58,8 +59,8 @@
             this.lblStartBooster = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.cbCheckForUpdates = new System.Windows.Forms.CheckBox();
             this.cbHideToTray = new System.Windows.Forms.CheckBox();
+            this.cbCheckForUpdates = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -124,7 +125,7 @@
             this.cbCommunity.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbCommunity.Location = new System.Drawing.Point(21, 72);
             this.cbCommunity.Name = "cbCommunity";
-            this.cbCommunity.Size = new System.Drawing.Size(190, 19);
+            this.cbCommunity.Size = new System.Drawing.Size(189, 19);
             this.cbCommunity.TabIndex = 4;
             this.cbCommunity.Text = "Connect To Steam Community";
             this.cbCommunity.UseVisualStyleBackColor = true;
@@ -136,7 +137,7 @@
             this.cbRestartGames.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbRestartGames.Location = new System.Drawing.Point(21, 97);
             this.cbRestartGames.Name = "cbRestartGames";
-            this.cbRestartGames.Size = new System.Drawing.Size(200, 19);
+            this.cbRestartGames.Size = new System.Drawing.Size(199, 19);
             this.cbRestartGames.TabIndex = 5;
             this.cbRestartGames.Text = "Restart Games Every Three Hours";
             this.cbRestartGames.UseVisualStyleBackColor = true;
@@ -231,6 +232,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.clearGames);
             this.groupBox3.Controls.Add(this.lblFindGames);
             this.groupBox3.Controls.Add(this.txtGameItem);
             this.groupBox3.Controls.Add(this.gameList);
@@ -241,11 +243,25 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Games";
             // 
+            // clearGames
+            // 
+            this.clearGames.AutoSize = true;
+            this.clearGames.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clearGames.Location = new System.Drawing.Point(143, 290);
+            this.clearGames.Name = "clearGames";
+            this.clearGames.Size = new System.Drawing.Size(73, 15);
+            this.clearGames.TabIndex = 5;
+            this.clearGames.Text = "Clear Games";
+            this.clearGames.Click += new System.EventHandler(this.ClearGames_Click);
+            this.clearGames.MouseEnter += new System.EventHandler(this.ClearGames_MouseEnter);
+            this.clearGames.MouseLeave += new System.EventHandler(this.ClearGames_MouseLeave);
+
+            // 
             // lblFindGames
             // 
             this.lblFindGames.AutoSize = true;
             this.lblFindGames.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblFindGames.Location = new System.Drawing.Point(143, 271);
+            this.lblFindGames.Location = new System.Drawing.Point(143, 265);
             this.lblFindGames.Name = "lblFindGames";
             this.lblFindGames.Size = new System.Drawing.Size(69, 15);
             this.lblFindGames.TabIndex = 4;
@@ -380,17 +396,6 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "General";
             // 
-            // cbCheckForUpdates
-            // 
-            this.cbCheckForUpdates.AutoSize = true;
-            this.cbCheckForUpdates.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbCheckForUpdates.Location = new System.Drawing.Point(9, 22);
-            this.cbCheckForUpdates.Name = "cbCheckForUpdates";
-            this.cbCheckForUpdates.Size = new System.Drawing.Size(122, 19);
-            this.cbCheckForUpdates.TabIndex = 7;
-            this.cbCheckForUpdates.Text = "Check for updates";
-            this.cbCheckForUpdates.UseVisualStyleBackColor = true;
-            // 
             // cbHideToTray
             // 
             this.cbHideToTray.AutoSize = true;
@@ -401,6 +406,17 @@
             this.cbHideToTray.TabIndex = 8;
             this.cbHideToTray.Text = "Hide to tray";
             this.cbHideToTray.UseVisualStyleBackColor = true;
+            // 
+            // cbCheckForUpdates
+            // 
+            this.cbCheckForUpdates.AutoSize = true;
+            this.cbCheckForUpdates.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cbCheckForUpdates.Location = new System.Drawing.Point(9, 22);
+            this.cbCheckForUpdates.Name = "cbCheckForUpdates";
+            this.cbCheckForUpdates.Size = new System.Drawing.Size(122, 19);
+            this.cbCheckForUpdates.TabIndex = 7;
+            this.cbCheckForUpdates.Text = "Check for updates";
+            this.cbCheckForUpdates.UseVisualStyleBackColor = true;
             // 
             // mainForm
             // 
@@ -476,6 +492,7 @@
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.CheckBox cbHideToTray;
         private System.Windows.Forms.CheckBox cbCheckForUpdates;
+        private System.Windows.Forms.Label clearGames;
     }
 }
 

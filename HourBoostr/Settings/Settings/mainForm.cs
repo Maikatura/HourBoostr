@@ -516,6 +516,15 @@ namespace Settings
             lblFindGames.ForeColor = SystemColors.Highlight;
         }
 
+        private void ClearGames_MouseEnter(object sender, EventArgs e)
+        {
+            clearGames.ForeColor = SystemColors.Highlight;
+        }
+
+        private void ClearGames_MouseLeave(object sender, EventArgs e)
+        {
+            clearGames.ForeColor = Color.Gray;
+        }
 
         /// <summary>
         /// lblFindGames set textcolor to blue to show that it's not highlighted
@@ -633,6 +642,12 @@ namespace Settings
         private void lblStartBooster_MouseLeave(object sender, EventArgs e)
         {
             lblStartBooster.ForeColor = Color.Gray;
+        }
+
+        private void ClearGames_Click(object sender, EventArgs e)
+        {
+            mActiveAccount.Games.Clear();
+            RefreshGameList();
         }
     }
 }
