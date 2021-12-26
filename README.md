@@ -1,12 +1,12 @@
 <p align="center">
   <img src="http://i.imgur.com/MJN4zty.png"/>
-  <h2 align="center"><a href="https://github.com/Ezzpify/HourBoostr/releases">DOWNLOAD HERE</a></h2>
+  <h2 align="center"><a href="https://github.com/Maikatura/HourBoostr/releases">DOWNLOAD HERE</a></h2>
 </p>
 
-[![License](https://img.shields.io/github/license/Ezzpify/HourBoostr.svg?label=License&maxAge=86400)](./LICENSE)
-[![GitHub Release](https://img.shields.io/github/release/Ezzpify/HourBoostr.svg?label=Latest&maxAge=60)](https://github.com/Ezzpify/HourBoostr/releases/latest)
-[![Total Downloads](https://img.shields.io/badge/Total%20Downloads-84k-brightgreen.svg)](https://github.com/Ezzpify/HourBoostr/releases/latest)
-[![Github Downloads](https://img.shields.io/github/downloads/Ezzpify/HourBoostr/latest/total.svg?label=Downloads%20for%20latest&maxAge=60)](https://github.com/Ezzpify/HourBoostr/releases/latest)
+[![License](https://img.shields.io/github/license/Maikatura/HourBoostr.svg?label=License&maxAge=86400)](./LICENSE)
+[![GitHub Release](https://img.shields.io/github/release/Maikatura/HourBoostr.svg?label=Latest&maxAge=60)](https://github.com/Ezzpify/Maikatura/releases/latest)
+[![Total Downloads](https://img.shields.io/badge/Total%20Downloads-84k-brightgreen.svg)](https://github.com/Maikatura/HourBoostr/releases/latest)
+[![Github Downloads](https://img.shields.io/github/downloads/Maikatura/HourBoostr/latest/total.svg?label=Downloads%20for%20latest&maxAge=60)](https://github.com/Maikatura/HourBoostr/releases/latest)
 
 [![Steam Group](https://img.shields.io/badge/Steam-group-yellowgreen.svg)](https://steamcommunity.com/groups/hourboostr)
 [![Discord](https://img.shields.io/badge/Discord-join-yellowgreen.svg)](https://discord.gg/g4M9fTs)
@@ -16,6 +16,10 @@ I am not going to maintain this fork as a continuation for this program I am jus
 
 Added Features:
 - Selection Games now show how many selected games you have.
+
+Planed Futures:
+- 1 Button Update Program
+- New UI (Game Images) like [steam achivement manager](https://github.com/gibbed/SteamAchievementManager)
 
 # General information
 
@@ -28,6 +32,8 @@ This program acts like a stand-alone Steam client and will require you to enter 
 Video tutorial of HourBoostr: https://www.youtube.com/watch?v=eqhPBEVMPDM
 
 ## SingleBoostr
+ 
+### I do not work on this program just for the one that idles many programs at once (the one above)
 
 This program is perfect for you if you only have one account that you want to boost. This program requires you to have Steam installed, however you can be logged into your account and play games and chat with your friends while you are boosting other games with SingleBoostr at the same time. SingleBoostr also offers a great way to farm Trading Cards.
 
