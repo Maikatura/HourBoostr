@@ -1,6 +1,6 @@
 <p align="center">
   <img src="http://i.imgur.com/MJN4zty.png"/>
-  <h2 align="center"><a href="https://github.com/Ezzpify/HourBoostr/releases">DOWNLOAD HERE</a></h2>
+  <h2 align="center"><a href="https://github.com/Maikatura/HourBoostr/releases">DOWNLOAD HERE</a></h2>
 </p>
 
 [![License](https://img.shields.io/github/license/Maikatura/HourBoostr.svg?label=License&maxAge=86400)](./LICENSE)
