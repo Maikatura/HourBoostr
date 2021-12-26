@@ -19,7 +19,7 @@ Added Features:
 
 Planed Futures:
 - 1 Button Update Program
-- New UI
+- New UI (Game Images) like [steam achivement manager](https://github.com/gibbed/SteamAchievementManager)
 
 # General information
 
