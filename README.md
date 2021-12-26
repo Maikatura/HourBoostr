@@ -11,6 +11,12 @@
 [![Steam Group](https://img.shields.io/badge/Steam-group-yellowgreen.svg)](https://steamcommunity.com/groups/hourboostr)
 [![Discord](https://img.shields.io/badge/Discord-join-yellowgreen.svg)](https://discord.gg/g4M9fTs)
 
+# Note from Maikatura
+I am not going to maintain this fork as a continuation for this program I am just going to make s QoL (quality of life) features to it :D I am not here to work on it and fix bugs for it!
+
+Added Features:
+- Selection Games now show how many selected games you have.
+
 # General information
 
 HourBoostr and SingleBoostr are two applications developed to idle games on your Steam accounts. The two programs work differently - and depending on how you to idle, you may want to pick one over the other. Neither applications require you to have the game you want to boost installed, but you do need to own the game in your library.
