@@ -5,7 +5,6 @@
 
 [![License](https://img.shields.io/github/license/Maikatura/HourBoostr.svg?label=License&maxAge=86400)](./LICENSE)
 [![GitHub Release](https://img.shields.io/github/release/Maikatura/HourBoostr.svg?label=Latest&maxAge=60)](https://github.com/Ezzpify/Maikatura/releases/latest)
-[![Total Downloads](https://img.shields.io/badge/Total%20Downloads-84k-brightgreen.svg)](https://github.com/Maikatura/HourBoostr/releases/latest)
 [![Github Downloads](https://img.shields.io/github/downloads/Maikatura/HourBoostr/latest/total.svg?label=Downloads%20for%20latest&maxAge=60)](https://github.com/Maikatura/HourBoostr/releases/latest)
 
 [![Steam Group](https://img.shields.io/badge/Steam-group-yellowgreen.svg)](https://steamcommunity.com/groups/hourboostr)
